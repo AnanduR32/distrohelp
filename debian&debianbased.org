@@ -101,7 +101,7 @@
   sudo add-apt-repository ppa:budgie-remix/ppa
   sudo apt install budgie-desktop-environment
 **** Want others?
-- [[https://wiki.debian.org/]Debian Wiki]
+- [[https://wiki.debian.org/][Debian Wiki]]
 - The Internet
 - Friends
 - Free Software User Groups
