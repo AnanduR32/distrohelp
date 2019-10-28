@@ -93,9 +93,12 @@
   DEVICES_TO_DISABLE_ON_STARTUP="bluetooth"
 
 * Misc :
+
 ** Disabling application drawer open animation : 
 -  Run command : gsettings set org.gnome.desktop.interface enable-animations false
 
+** Set icon to minimize on click :
+- gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
 
 * Installing budgie Desktop Environment : 
   sudo add-apt-repository ppa:budgie-remix/ppa
