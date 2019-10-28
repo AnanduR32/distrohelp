@@ -115,3 +115,6 @@
 
 * Android Studio Setup 
 - Installing KVM : https://help.ubuntu.com/community/KVM/Installation
+
+* Installing Anaconda3 
+- https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart
