@@ -67,6 +67,10 @@
   override-map.1 = all
   override-map.2 = all-left,all-right
 
+** In case of other audio related issue reinstall pulseaudio :
+- sudo apt remove pulseaudio
+- sudo apt install pulseaudio
+
 * Configuring tlp (Battery Saving Tool) :
 - Adding Package Repository :
   sudo add-apt-repository ppa:linrunner/tlp
@@ -108,3 +112,6 @@
 - The Internet
 - Friends
 - Free Software User Groups
+
+* Android Studio Setup 
+- Installing KVM : https://help.ubuntu.com/community/KVM/Installation
