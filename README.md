@@ -57,15 +57,16 @@
 
 
 * Add
-  [Element Master]
-  switch = mute
-  volume = ignore
-  Before the block
-  [Element PCM]
-  switch = mute
-  volume = merge
-  override*map.1 = all
-  override*map.2 = all*left,all*right
+    [Element Master]
+    switch = mute
+    volume = ignore
+    
+* Before the block
+    [Element PCM]
+    switch = mute
+    volume = merge
+    override*map.1 = all
+    override*map.2 = all*left,all*right
 
 ## In case of other audio related issue reinstall pulseaudio :
 * sudo apt remove pulseaudio
@@ -115,7 +116,7 @@
   sudo add*apt*repository ppa:budgie*remix/ppa
   sudo apt install budgie*desktop*environment
 #### Want others?
-* [[https://wiki.debian.org/][Debian Wiki]]
+* [Debian Wiki](https://wiki.debian.org/)
 * The Internet
 * Friends
 * Free Software User Groups
@@ -128,18 +129,19 @@
 
 # Installing React Native
 * installing npm :
-  > sudo apt install npm 
+  `sudo apt install npm`
 * installing react-native-cli 
-  > npm install -g react-native-cli
+  `npm install -g react-native-cli`
 * adding path -> open environments :
-  * > sudo nano /etc/environment
+  * `sudo nano /etc/environment`
   * add the following string to beginning of path separate paths using ':'
-    > \~/Android/Sdk/emulator:\~/Android/Sdk/tools:\~/Android/Sdk/tools/bin:\~/Android/Sdk/platform-tools:
+    `\~/Android/Sdk/emulator:\~/Android/Sdk/tools:\~/Android/Sdk/tools/bin:\~/Android/Sdk/platform-tools:`
 * initialize project 
-  > react-native init react_project_name
+  `react-native init react_project_name`
 * If react-native command not found error encountered use :
-  * > curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-  * > sudo apt-get install -y nodejs
+  * `curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash - `
+  * To identify latest version go [here](https://github.com/nodesource/distributions/tree/master/deb) 
+  * `sudo apt-get install -y nodejs`
 
 
 
