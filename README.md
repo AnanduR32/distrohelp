@@ -134,7 +134,7 @@
 * adding path -> open environments :
   * > sudo nano /etc/environment
   * add the following string to beginning of path separate paths using ':'
-    > "~/Android/Sdk/emulator:~/Android/Sdk/tools:~/Android/Sdk/tools/bin:~/Android/Sdk/platform-tools:"
+    > \~/Android/Sdk/emulator:\~/Android/Sdk/tools:\~/Android/Sdk/tools/bin:\~/Android/Sdk/platform-tools:
 * initialize project 
   > react-native init react_project_name
 * If react-native command not found error encountered use :
