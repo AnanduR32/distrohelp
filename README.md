@@ -104,6 +104,13 @@
 ## Set icon to minimize on click :
 * gsettings set org.gnome.shell.extensions.dash*to*dock click*action 'minimize'
 
+## Backup of .bashrc
+* Backup your current .bashrc file:
+    * cp ~/.bashrc ~/.bashrc.bak
+* Copy the skeleton .bashrc file over yours:
+    * cp /etc/skel/.bashrc ~/
+* load the new one:
+    * source ~/.bashrc
 # Installing budgie Desktop Environment :
   sudo add*apt*repository ppa:budgie*remix/ppa
   sudo apt install budgie*desktop*environment
