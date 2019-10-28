@@ -126,4 +126,20 @@
 # Installing Anaconda3
 * https://www.digitalocean.com/community/tutorials/how*to*install*anaconda*on*ubuntu*18*04*quickstart
 
+# Installing React Native
+* installing npm :
+  > sudo apt install npm 
+* installing react-native-cli 
+  > npm install -g react-native-cli
+* adding path -> open environments :
+  * > sudo nano /etc/environment
+  * add the following string to beginning of path separate paths using ':'
+    > "~/Android/Sdk/emulator:~/Android/Sdk/tools:~/Android/Sdk/tools/bin:~/Android/Sdk/platform-tools:"
+* initialize project 
+  > react-native init react_project_name
+* If react-native command not found error encountered use :
+  * > curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+  * > sudo apt-get install -y nodejs
+
+
 
