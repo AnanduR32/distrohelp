@@ -53,20 +53,20 @@
 
 # Sound Volume control sync fix :
 * Navigate to file  :
-  sudo nano /usr/share/pulseaudio/alsa*mixer/paths/analog*output.conf.common
+  sudo sudo nano /usr/share/pulseaudio/alsa-mixer/paths/analog-output.conf.common
 
 
 * Add
-    [Element Master]
-    switch = mute
-    volume = ignore
+  * >   [Element Master]
+  * >   switch = mute
+  * >   volume = ignore
     
 * Before the block
-    [Element PCM]
-    switch = mute
-    volume = merge
-    override*map.1 = all
-    override*map.2 = all*left,all*right
+  * >   [Element PCM]
+  * >   switch = mute
+  * >   volume = merge
+  * >   override*map.1 = all
+  * >   override*map.2 = all*left,all*right
 
 ## In case of other audio related issue reinstall pulseaudio :
 * sudo apt remove pulseaudio
